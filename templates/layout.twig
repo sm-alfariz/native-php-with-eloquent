@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">          
+    {% block head %}            
+        <title>{% block title %}{% endblock %} - My Webpage</title>
+    {% endblock %}
+    </head>
+    <body>
+
+    <div class="container-fluid">
+        {% block content %}{% endblock %} {# nantinya ini di isi secara dinamis oleh template lain #}
+    </div>
+
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>        
+    </body>
+</html>

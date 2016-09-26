@@ -1,0 +1,15 @@
+settings:  
+    timezone: Asia/Makassar
+database:  
+    connection: mysql
+    connections:
+        mysql:
+            driver: mysql
+            host: localhost
+            database: nativephp
+            username: fendi
+            password: passsWordnYa
+            charset: utf8
+            collation: utf8_unicode_ci
+            prefix: ''
+            strict: false

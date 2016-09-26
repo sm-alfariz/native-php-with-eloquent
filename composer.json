@@ -1,0 +1,23 @@
+{
+    "name": "sm-alfariz/native-php-with-eloquent",
+    "description": "kopi php native rasa laravel sama+gelasnya buatan sympony (twig template)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sm-alfariz",
+            "email": "samman.alfariz@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.3",
+        "twig/twig": "^1.25",
+        "symfony/yaml": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Helper\\": "helper/"
+        }
+    }     
+}
